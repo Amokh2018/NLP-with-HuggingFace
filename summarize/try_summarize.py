@@ -16,7 +16,7 @@ response = requests.post(f'{BASE_URL}/summarize/', json=payload)
 if response.status_code == 200:
     # Print the summarized text
     print("Summarized Text: ")
-    print(response.json()['summary'])
+    print(response.json())
 else:
     # Print error message if request was not successful
     print("Error:", response.status_code)
