@@ -6,3 +6,6 @@ ipykernel
 torch
 datasets
 ipywidgets
+accelerate==0.30.1
+huggingface_hub
+scikit-learn
