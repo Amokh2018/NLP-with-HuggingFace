@@ -1,6 +1,6 @@
 install:
 	@echo "install requirements in HF_SA_MLOps";\
-    . ../ENVS/HF_SA_MLOps/bin/activate; \
+    . ./HF_SA_MLOps/bin/activate; \
     pip install -r requirements.txt;
 init:
 	@echo "Creating Python virtual environment 'HF_SA_MLOps'"; \
